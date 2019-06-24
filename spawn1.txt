@@ -1,6 +1,7 @@
 spawnlogout
 spawnlogin Partisan Marksman
 setpospyr 15 0 100 0 10 0
+wait 1
 targetname "Partisan Marksman"
 ec 0 kill
 targetname "Partisan Marksman"
