@@ -1,0 +1,26 @@
+spawnlogout
+spawnlogin Partisan Marksman
+setpospyr 15 0 100 0 10 0
+targetname "Partisan Marksman"
+ec 0 kill
+targetname "Partisan Marksman"
+ec 0 kill
+cc 1
+setpospyr 15 0 10 0 10 0
+cc 2
+doppelgangertest "Partisan Marksman" "Echelon" eboss 5
+targetname "Partisan Marksman"
+ec 0 behavioradd "BodyBag_Wander"
+setpospyr 80 16 -245 0 0 0
+targetname Lt. Sefu Tendaji
+ec 0 kill
+targetname Lt. Sefu Tendaji
+ec 0 kill
+setpospyr 80 16 -235 0 0 0
+spawnvillain "FreedomCorps_lt_sefu_tendaji"
+targetname Lt. Sefu Tendaji
+yousay These three are under orders to go on patrol with you.
+targetfriendnext
+csr "$target" spawnpet freedomcorps_sargeant_low
+csr "$target" spawnpet freedomcorps_sargeant_low_female
+csr "$target" spawnpet freedomcorps_sargeant_low_female
