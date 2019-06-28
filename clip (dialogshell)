@@ -1,0 +1,11 @@
+
+$compare = ""
+while (1)
+{
+    if ($compare -ne $(clipbrd))
+    {
+        $string = "$string$(cr)$(lf)$(clipbrd)"
+        $compare = $(clipbrd)
+    }
+    $string | out-file c:\temp\sofar.txt
+}
